@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vh;
+  background: linear-gradient(45deg, #d9ff00, #ff3c00, #ff1100);
+}
+.intro {
+  display: flex;
+  color: #eef;
+}
+
+.title {
+  font-family: "Dancing Script";
+  font-size: 85px;
+  color: #eef;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  font-family: "League Spartan", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field input {
+  font-size: 16pt;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+  padding: 8px;
+  width: 250px;
+  height: 50px;
+}
+
+.input-field button {
+  color: #eef;
+  background-color: #808085;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.box-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 500px;
+  background-color: #eef;
+}
